@@ -23,7 +23,6 @@
       "minikube": "none"
     }
   },
-  "forwardPorts": [8000],
   "overrideFeatureInstallOrder": [
     "ghcr.io/devcontainers/features/common-utils",
     "ghcr.io/devcontainers/features/docker-outside-of-docker",
