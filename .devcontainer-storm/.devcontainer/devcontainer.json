@@ -14,6 +14,12 @@
       "userUid": "automatic",
       "userGid": "automatic"
     },
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {
+      "moby": true,
+      "installDockerBuildx": true,
+      "version": "latest",
+      "dockerDashComposeVersion": "v2"
+    },
     "./features/k3d": {},
     "ghcr.io/devcontainers/features/python:1": {
       "installedTools": true,
