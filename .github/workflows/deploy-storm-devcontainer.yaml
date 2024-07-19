@@ -33,4 +33,4 @@ jobs:
           DH_REPO: "${{ secrets.DH_REPO }}"
           GITHUB_SHA: "${{ github.sha }}"
         run: |
-          docker push $DH_REPO:$GITHUB_SHA
+          docker push $DH_REPO:latest
