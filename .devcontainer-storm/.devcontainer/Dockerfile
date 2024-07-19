@@ -1,3 +1,3 @@
-from alpine:3.20.1
+from debian:bullseye
 
-RUN apk update && apk upgrade --no-cache
+RUN apt-get update && update-get install -y --no-install-recommends \ spellcheck
