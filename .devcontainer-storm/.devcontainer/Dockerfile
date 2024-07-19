@@ -1,3 +1,3 @@
 from debian:bullseye
 
-RUN apt-get update && update-get install -y --no-install-recommends \ spellcheck
+RUN apt-get update && apt-get update install -y --no-install-recommends \ spellcheck
