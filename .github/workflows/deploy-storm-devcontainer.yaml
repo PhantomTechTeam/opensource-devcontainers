@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 18.0.0
-      - run: npm install @devcontainers/cli
+      - run: npm install -g @devcontainers/cli
       - run: devcontainer build --workspace-folder ./.devcontainer-storm --image-name $DH_REPO:$GITHUB_SHA
 
       - name: Docker push Storm dev container
