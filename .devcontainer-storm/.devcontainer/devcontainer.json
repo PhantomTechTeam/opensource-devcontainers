@@ -20,6 +20,7 @@
       "version": "latest",
       "dockerDashComposeVersion": "v2"
     },
+    "ghcr.io/devcontainers/features/anaconda:1": {},
     "./features/k3d": {},
     "ghcr.io/devcontainers/features/python:1": {
       "installedTools": true,
